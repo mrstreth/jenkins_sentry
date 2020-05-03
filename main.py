@@ -8,10 +8,7 @@ with configure_scope() as scope:
     scope.user = {'email':'mr.tesanta@gmail.com'}
     scope.set_tag("JENKINS","lab6")
     scope.set_tag("author","mrstreth")
-try:
-    answer = 1 / 0
-except:
-    answer = 1 / 1
-finally:
-    #print(f'answer = {answer}')
-    print('answer =', answer)
+
+A = list()
+
+print(A[2])
